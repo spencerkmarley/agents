@@ -1,0 +1,516 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content":
+      - /url: "#site-main"
+    - navigation "Quick links" [ref=e11]:
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Subscribe" [ref=e14] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/subscribe
+        - listitem [ref=e15]:
+          - link "Sustainability" [ref=e16] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/feature/sustainability
+        - listitem [ref=e17]:
+          - link "Good Food Shows" [ref=e18] [cursor=pointer]:
+            - /url: https://www.goodfoodshow.com/summer/?utm_source=bbcgoodfood.com&utm_medium=referral&utm_campaign=eyebrowbanner
+        - listitem [ref=e19]:
+          - link "GF x Gousto" [ref=e20] [cursor=pointer]:
+            - /url: https://cook.gousto.co.uk/goodfood/?utm_source=goodfood&utm_medium=email&utm_campaign=goodfood&?promo_code=GOODFOOD50
+        - listitem [ref=e21]:
+          - link "Download our app" [ref=e22] [cursor=pointer]:
+            - /url: https://immediate.onelink.me/OQap?af_xp=custom&pid=website&c=homepage_eyebrow&is_mar26_chetnamakan_retargeting=true&af_reengagement_window=30d&af_dp=bbcgoodfood%3A%2F%2F
+        - listitem [ref=e23]:
+          - link "GF x Laithwaites Wine" [ref=e24] [cursor=pointer]:
+            - /url: https://www.laithwaites.co.uk/partnerships/goodfood?cid=PRT/8715001/goodfood/GFEYENAV&/partner&/20251015&/LW&utm_medium=PRT&utm_source=gf&utm_campaign=GFEYENAV
+    - link "Good Food logo in black" [ref=e31] [cursor=pointer]:
+      - /url: https://www.bbcgoodfood.com
+      - img "Good Food logo in black" [ref=e33]
+    - navigation "Main" [ref=e35]:
+      - generic [ref=e36]:
+        - menubar [ref=e37]:
+          - menuitem "Recipes" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: Recipes
+            - img [ref=e41]
+          - menuitem "Health" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: Health
+            - img [ref=e46]
+          - menuitem "What to buy" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: What to buy
+            - img [ref=e51]
+          - menuitem "Budget" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: Budget
+            - img [ref=e56]
+          - menuitem "Baking" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Baking
+          - menuitem "Subscribe" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: Subscribe
+        - search [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: Search
+            - generic [ref=e67]:
+              - img [ref=e70]
+              - textbox "Search" [ref=e72]:
+                - /placeholder: Search recipes...
+    - main [ref=e74]:
+      - generic [ref=e75]:
+        - navigation "Breadcrumb" [ref=e76]:
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - link "Home" [ref=e79] [cursor=pointer]:
+                - /url: https://www.bbcgoodfood.com:443
+            - listitem [ref=e80]:
+              - img [ref=e82]
+              - link "Recipes" [ref=e84] [cursor=pointer]:
+                - /url: https://www.bbcgoodfood.com/recipes
+            - listitem [ref=e85]:
+              - img [ref=e87]
+              - generic [ref=e89]: Easy banoffee pie
+        - generic [ref=e91]:
+          - 'button "Easy banoffee pie: Play video" [ref=e96] [cursor=pointer]':
+            - generic [ref=e100]:
+              - generic:
+                - generic:
+                  - img
+          - banner [ref=e101]:
+            - heading "Easy banoffee pie" [level=1] [ref=e103]
+            - list [ref=e106]:
+              - listitem [ref=e107]:
+                - link "Liberty Mendez" [ref=e108] [cursor=pointer]:
+                  - /url: /author/libertymendez
+            - generic [ref=e110]:
+              - button "Save recipe" [ref=e111] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e117]: Save recipe
+              - button "Manage Collections":
+                - img [ref=e120] [cursor=pointer]
+            - generic [ref=e122]:
+              - generic [ref=e123]:
+                - strong [ref=e125]: Serves 8-10
+                - strong [ref=e127]: Easy
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - text: "Prep:"
+                  - strong [ref=e130]:
+                    - time [ref=e132]: 25 mins
+                - generic [ref=e133]: plus chilling
+            - generic [ref=e136]:
+              - link "rating" [ref=e137] [cursor=pointer]:
+                - /url: "#rating"
+                - generic "rating" [ref=e139]:
+                  - generic [ref=e140]:
+                    - img [ref=e142]
+                    - img [ref=e145]
+                    - img [ref=e148]
+                    - img [ref=e151]
+                    - img [ref=e154]
+                  - generic [ref=e156]: A star rating of 4 out of 5.
+                  - generic [ref=e157]: 91 ratings
+                  - generic [ref=e158]: Rate
+              - generic [ref=e159]:
+                - generic [ref=e160]: loading...
+                - img [ref=e161]
+            - paragraph [ref=e167]: Treat loved ones to a banoffee pie for dessert featuring a classic biscuit base, oozy caramel, bananas, cream and chocolate. Who could resist?
+            - generic [ref=e168]:
+              - generic [ref=e169]: Nut-free
+              - generic [ref=e170]: Vegetarian
+            - button "Print" [ref=e171] [cursor=pointer]:
+              - generic [ref=e172]:
+                - img [ref=e174]
+                - text: Print
+        - main [ref=e176]:
+          - link "Skip to ingredients":
+            - /url: "#ingredients-list"
+          - generic [ref=e177]:
+            - generic [ref=e179]:
+              - button "Alternatives" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]: Alternatives
+              - button "Complete the dish" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: Complete the dish
+            - generic [ref=e185]: Loading...
+          - generic [ref=e186]:
+            - generic [ref=e188]:
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - heading "Ingredients" [level=2] [ref=e194]:
+                      - button "Ingredients" [ref=e195] [cursor=pointer]
+                    - heading "Nutrition" [level=2] [ref=e196]:
+                      - button "Nutrition" [ref=e197] [cursor=pointer]
+                  - generic [ref=e200]:
+                    - list [ref=e202]:
+                      - listitem [ref=e203]: 225g/8oz digestive biscuits
+                      - listitem [ref=e204]:
+                        - text: 150g/5oz
+                        - link "butter" [ref=e205] [cursor=pointer]:
+                          - /url: /glossary/butter-glossary
+                        - generic [ref=e206]: melted
+                      - listitem [ref=e207]:
+                        - text: 397g can
+                        - link "caramel" [ref=e208] [cursor=pointer]:
+                          - /url: /glossary/caramel-glossary
+                        - generic [ref=e209]: or 400g dulce de leche
+                      - listitem [ref=e210]:
+                        - text: "3"
+                        - link "small bananas" [ref=e211] [cursor=pointer]:
+                          - /url: /glossary/banana-glossary
+                        - generic [ref=e212]: sliced
+                      - listitem [ref=e213]:
+                        - text: 300ml/½ pint
+                        - link "double cream" [ref=e214] [cursor=pointer]:
+                          - /url: /glossary/cream-glossary
+                      - listitem [ref=e215]:
+                        - text: 1 tbsp
+                        - link "icing sugar" [ref=e216] [cursor=pointer]:
+                          - /url: /glossary/sugar-glossary
+                      - listitem [ref=e217]:
+                        - text: 1 square dark
+                        - link "chocolate" [ref=e218] [cursor=pointer]:
+                          - /url: /glossary/chocolate-glossary
+                        - generic [ref=e219]: (optional)
+                    - generic [ref=e224]:
+                      - text: Keep the screen awake with cook mode on the
+                      - link "Good Food app." [ref=e225] [cursor=pointer]:
+                        - /url: https://immediate.onelink.me/OQap?af_xp=custom&pid=website&c=ingredients_CTA&is_retargeting=true&af_reengagement_window=30d&af_dp=bbcgoodfood%3A%2F%2F
+                - generic [ref=e229]: Ad
+                - generic [ref=e231]:
+                  - heading "Method" [level=2] [ref=e232]
+                  - list [ref=e233]:
+                    - listitem [ref=e234]:
+                      - heading "step 1" [level=3] [ref=e235]
+                      - paragraph [ref=e237]:
+                        - text: Crush the digestive biscuits, either by hand using a wooden spoon, or in a
+                        - link "food processor" [ref=e238] [cursor=pointer]:
+                          - /url: https://www.bbcgoodfood.com/content/test-five-best-food-processors
+                        - text: ", until you get fine crumbs, tip into a bowl. Mix the crushed biscuits with the melted butter until fully combined. Tip the mixture into a 23cm loose bottomed fluted tart tin and cover the tin, including the sides, with the biscuit in an even layer. Push down with the back of a spoon to smooth the surface and chill for 1 hr, or overnight."
+                    - listitem [ref=e239]:
+                      - heading "step 2" [level=3] [ref=e240]
+                      - paragraph [ref=e242]: Beat the caramel to loosen and spoon it over the bottom of the biscuit base. Spread it out evenly using the back of a spoon or palette knife. Gently push the chopped banana into the top of the caramel until the base is covered. Put in the fridge.
+                    - listitem [ref=e243]:
+                      - heading "step 3" [level=3] [ref=e244]
+                      - paragraph [ref=e246]: Whip the cream with the icing sugar until billowy and thick. Take the pie out of the fridge and spoon the whipped cream on top of the bananas. Grate the dark chocolate over the cream, if you like, and serve.
+              - heading "Sponsored content" [level=2] [ref=e247]
+              - generic [ref=e249]:
+                - heading "Comments, questions and tips" [level=2] [ref=e250]
+                - generic [ref=e254]:
+                  - heading "Rate this recipe" [level=3] [ref=e255]
+                  - group "What is your star rating out of 5?" [ref=e256]:
+                    - generic [ref=e257]: What is your star rating out of 5?
+                    - generic [ref=e258] [cursor=pointer]:
+                      - generic [ref=e259]: 1 star out of 5
+                      - radio "1 star out of 5" [ref=e260]
+                      - img [ref=e262]
+                    - generic [ref=e264] [cursor=pointer]:
+                      - generic [ref=e265]: 2 stars out of 5
+                      - radio "2 stars out of 5" [ref=e266]
+                      - img [ref=e268]
+                    - generic [ref=e270] [cursor=pointer]:
+                      - generic [ref=e271]: 3 stars out of 5
+                      - radio "3 stars out of 5" [ref=e272]
+                      - img [ref=e274]
+                    - generic [ref=e276] [cursor=pointer]:
+                      - generic [ref=e277]: 4 stars out of 5
+                      - radio "4 stars out of 5" [ref=e278]
+                      - img [ref=e280]
+                    - generic [ref=e282] [cursor=pointer]:
+                      - generic [ref=e283]: 5 stars out of 5
+                      - radio "5 stars out of 5" [ref=e284]
+                      - img [ref=e286]
+                - generic [ref=e291]:
+                  - heading "Choose the type of message you'd like to post" [level=3] [ref=e292]
+                  - group "Choose the type of message you'd like to post" [ref=e293]:
+                    - generic [ref=e294]: Choose the type of message you'd like to post
+                    - generic [ref=e295] [cursor=pointer]:
+                      - radio "Comment" [ref=e296]
+                      - generic [ref=e297]:
+                        - img [ref=e299]
+                        - generic [ref=e301]: Comment
+                    - generic [ref=e302] [cursor=pointer]:
+                      - radio "Question" [ref=e303]
+                      - generic [ref=e304]:
+                        - img [ref=e306]
+                        - generic [ref=e308]: Question
+                    - generic [ref=e309] [cursor=pointer]:
+                      - radio "Tip" [ref=e310]
+                      - generic [ref=e311]:
+                        - img [ref=e313]
+                        - generic [ref=e315]: Tip
+                - generic [ref=e316]:
+                  - heading "Overall rating" [level=3] [ref=e317]
+                  - generic "rating" [ref=e319]:
+                    - generic [ref=e320]:
+                      - img [ref=e322]
+                      - img [ref=e325]
+                      - img [ref=e328]
+                      - img [ref=e331]
+                      - img [ref=e334]
+                    - generic [ref=e336]: A star rating of 4 out of 5.
+                    - generic [ref=e337]: 91 ratings
+            - generic [ref=e363]:
+              - generic [ref=e368]: Ad
+              - generic [ref=e375]: Ad
+              - generic [ref=e378]:
+                - generic [ref=e380]:
+                  - link "SM00175 Spring-1080x1080-sidebar" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/subscribe?utm_source=fabric&utm_medium=brandsite&utm_content=sidebar-widget&utm_campaign=326cspring-26
+                    - img "SM00175 Spring-1080x1080-sidebar" [ref=e385]
+                  - generic [ref=e386]:
+                    - link "Savour the season" [ref=e387] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/subscribe?utm_source=fabric&utm_medium=brandsite&utm_content=sidebar-widget&utm_campaign=326cspring-26
+                      - heading "Savour the season" [level=2] [ref=e388]
+                    - generic [ref=e390]: Turn ordinary meals into something special with Good Food All Access for just £9.99 for 6 month.
+                    - button "Subscribe today" [ref=e391] [cursor=pointer]:
+                      - generic [ref=e392]: Subscribe today
+                - generic [ref=e393]: Loading...
+              - generic [ref=e399]: Ad
+          - generic [ref=e401]:
+            - generic [ref=e402]: Loading...
+            - heading "Sponsored content" [level=2] [ref=e403]
+            - generic [ref=e404]: Loading...
+    - generic [ref=e410]:
+      - article [ref=e412]:
+        - link "View Explore our recipe app" [ref=e415] [cursor=pointer]:
+          - /url: https://immediate.onelink.me/OQap/np1ykpdl
+          - img "Good Food App Footer Prepped Not Processed" [ref=e419]
+        - generic [ref=e420]:
+          - link "Explore our recipe app" [ref=e421] [cursor=pointer]:
+            - /url: https://immediate.onelink.me/OQap/np1ykpdl
+            - heading "Explore our recipe app" [level=4] [ref=e422]
+          - paragraph [ref=e424]: Subscribe now and get access to exclusive recipes, meal plans, podcasts and more.
+          - button "Try today" [ref=e425] [cursor=pointer]:
+            - generic [ref=e426]: Try today
+      - article [ref=e428]:
+        - link "View Savour the season" [ref=e431] [cursor=pointer]:
+          - /url: https://www.bbcgoodfood.com/subscribe?tab=digital&utm_source=fabric&utm_medium=brandsite&utm_campaign=326cspring-26&utm_content=footer-widget
+          - img "SM00175_Spring-brandsite footer Widget-180x180" [ref=e435]
+        - generic [ref=e436]:
+          - link "Savour the season" [ref=e437] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/subscribe?tab=digital&utm_source=fabric&utm_medium=brandsite&utm_campaign=326cspring-26&utm_content=footer-widget
+            - heading "Savour the season" [level=4] [ref=e438]
+          - paragraph [ref=e440]: Turn ordinary meals into something special with Good Food All Access for just £9.99 for 6 month.
+          - button "Subscribe today" [ref=e441] [cursor=pointer]:
+            - generic [ref=e442]: Subscribe today
+      - article [ref=e444]:
+        - link "View Podcast" [ref=e447] [cursor=pointer]:
+          - /url: https://www.bbcgoodfood.com/feature/podcasts
+          - img "Good Food Podcast with Samuel Goldsmith cover" [ref=e451]
+        - generic [ref=e452]:
+          - link "Podcast" [ref=e453] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/feature/podcasts
+            - heading "Podcast" [level=4] [ref=e454]
+          - paragraph [ref=e456]: Our food team shares tips, techniques and their all-time favourite recipes in our lively weekly podcast.
+          - button "More" [ref=e457] [cursor=pointer]:
+            - generic [ref=e458]: More
+    - contentinfo [ref=e459]:
+      - generic [ref=e461]:
+        - link "Good Food logo in white colour" [ref=e463] [cursor=pointer]:
+          - /url: https://www.bbcgoodfood.com
+          - img "Good Food logo in white colour" [ref=e465]
+        - list [ref=e467]:
+          - listitem [ref=e468]:
+            - link "Visit us on Facebook" [ref=e469] [cursor=pointer]:
+              - /url: https://www.facebook.com/goodfoodeveryday
+              - generic [ref=e470]:
+                - generic [ref=e471]: Visit us on Facebook
+                - img [ref=e474]
+          - listitem [ref=e476]:
+            - link "Visit us on Twitter" [ref=e477] [cursor=pointer]:
+              - /url: https://twitter.com/@BBCgoodfood
+              - generic [ref=e478]:
+                - generic [ref=e479]: Visit us on Twitter
+                - img [ref=e482]
+          - listitem [ref=e484]:
+            - link "Visit us on Instagram" [ref=e485] [cursor=pointer]:
+              - /url: https://www.instagram.com/goodfoodeveryday
+              - generic [ref=e486]:
+                - generic [ref=e487]: Visit us on Instagram
+                - img [ref=e490]
+          - listitem [ref=e492]:
+            - link "Visit us on Pinterest" [ref=e493] [cursor=pointer]:
+              - /url: http://uk.pinterest.com/goodfood
+              - generic [ref=e494]:
+                - generic [ref=e495]: Visit us on Pinterest
+                - img [ref=e498]
+          - listitem [ref=e500]:
+            - link "Visit us on Youtube" [ref=e501] [cursor=pointer]:
+              - /url: https://www.youtube.com/@GoodFood
+              - generic [ref=e502]:
+                - generic [ref=e503]: Visit us on Youtube
+                - img [ref=e506]
+          - listitem [ref=e508]:
+            - link "Visit us on Tiktok" [ref=e509] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@goodfood
+              - generic [ref=e510]:
+                - generic [ref=e511]: Visit us on Tiktok
+                - img [ref=e514]
+          - listitem [ref=e516]:
+            - link "Visit us on Rss" [ref=e517] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/feed/atom/
+              - generic [ref=e518]:
+                - generic [ref=e519]: Visit us on Rss
+                - img [ref=e522]
+      - generic [ref=e525]:
+        - list [ref=e527]:
+          - listitem [ref=e528]:
+            - link "About us" [ref=e529] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/about-bbc-good-food
+          - listitem [ref=e530]:
+            - link "Contact Us" [ref=e531] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/contact-us
+          - listitem [ref=e532]:
+            - link "Privacy Queries" [ref=e533] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/privacy-policy-form
+          - listitem [ref=e534]:
+            - link "Privacy Policy" [ref=e535] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/privacy/
+          - listitem [ref=e536]:
+            - link "Terms & Conditions" [ref=e537] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/terms-and-conditions/
+          - listitem [ref=e538]:
+            - link "Cookies Policy" [ref=e539] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/cookies/
+          - listitem [ref=e540]:
+            - link "Complaints escalation" [ref=e541] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/complaints-escalation/
+          - listitem [ref=e542]:
+            - link "Advertise" [ref=e543] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/brands/bbc-good-food-magazine/#advertising
+          - listitem [ref=e544]:
+            - link "Accessibility" [ref=e545] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/accessibility/
+          - listitem [ref=e546]:
+            - link "Sustainability" [ref=e547] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/feature/sustainability
+          - listitem [ref=e548]:
+            - link "AI Policy" [ref=e549] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/genai/
+          - listitem [ref=e550]:
+            - link "Manage Privacy Settings" [ref=e551] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e552]:
+          - link "Immediate company logo in white" [ref=e554] [cursor=pointer]:
+            - /url: https://www.immediate.co.uk
+            - img "Immediate company logo in white" [ref=e558]
+          - generic [ref=e559]:
+            - generic [ref=e560]: This website is owned and published by Immediate Media Company Limited. The domain name is used under licence from BBC Studios Distribution Limited.
+            - generic [ref=e561]: © Immediate 2026
+      - list [ref=e564]:
+        - listitem [ref=e565]:
+          - link "Nutracheck.co.uk" [ref=e566] [cursor=pointer]:
+            - /url: https://www.nutracheck.co.uk/Home?utm_source=goodfood&utm_medium=footer&utm_campaign=gf-footer
+        - listitem [ref=e567]:
+          - link "OliveMagazine.com" [ref=e568] [cursor=pointer]:
+            - /url: https://www.olivemagazine.com
+        - listitem [ref=e569]:
+          - link "GoodFoodShow.com" [ref=e570] [cursor=pointer]:
+            - /url: https://www.goodfoodshow.com/summer/?utm_source=bbcgoodfood.com&utm_medium=referral&utm_campaign=footer
+        - listitem [ref=e571]:
+          - link "RadioTimes.com" [ref=e572] [cursor=pointer]:
+            - /url: https://www.radiotimes.com
+        - listitem [ref=e573]:
+          - link "HistoryExtra.com" [ref=e574] [cursor=pointer]:
+            - /url: https://www.historyextra.com
+        - listitem [ref=e575]:
+          - link "GardenersWorld.com" [ref=e576] [cursor=pointer]:
+            - /url: https://www.gardenersworld.com
+        - listitem [ref=e577]:
+          - link "MadeForMums.com" [ref=e578] [cursor=pointer]:
+            - /url: https://www.madeformums.com
+      - list [ref=e581]:
+        - listitem [ref=e582]:
+          - link "Barbecue" [ref=e583] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/barbecue-collections
+        - listitem [ref=e584]:
+          - link "Dietary needs" [ref=e585] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dietary-needs-collections
+        - listitem [ref=e586]:
+          - link "Healthy eating" [ref=e587] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/healthy-eating-collections
+        - listitem [ref=e588]:
+          - link "Seasonal" [ref=e589] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/seasonal-food-collections
+        - listitem [ref=e590]:
+          - link "Bread, pastry & cakes" [ref=e591] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/bread-pastry-cake-collections
+        - listitem [ref=e592]:
+          - link "Dinner ideas" [ref=e593] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dinner-idea-collections
+        - listitem [ref=e594]:
+          - link "Nuts & seeds" [ref=e595] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/nuts-and-seeds-collections
+        - listitem [ref=e596]:
+          - link "Soups" [ref=e597] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/soup-collections
+        - listitem [ref=e598]:
+          - link "Breakfast" [ref=e599] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/breakfast-collections
+        - listitem [ref=e600]:
+          - link "Dinner party" [ref=e601] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dinner-party-collections
+        - listitem [ref=e602]:
+          - link "Poultry" [ref=e603] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/poultry-collections
+        - listitem [ref=e604]:
+          - link "Special occasions" [ref=e605] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/special-occasion-collections
+        - listitem [ref=e606]:
+          - link "Casserole & slow cooker" [ref=e607] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/casserole-slow-cooker-collections
+        - listitem [ref=e608]:
+          - link "Drinks" [ref=e609] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/drinks-collections
+        - listitem [ref=e610]:
+          - link "Pulses & grains" [ref=e611] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/pulses-and-grains-collections
+        - listitem [ref=e612]:
+          - link "Sweet treats" [ref=e613] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/sweet-treat-collections
+        - listitem [ref=e614]:
+          - link "Cheese" [ref=e615] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/cheese-collections
+        - listitem [ref=e616]:
+          - link "Easter" [ref=e617] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/all-easter-collections
+        - listitem [ref=e618]:
+          - link "Quick & easy budget meals" [ref=e619] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/easy-and-budget-collections
+        - listitem [ref=e620]:
+          - link "Vegan" [ref=e621] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/vegan-collections
+        - listitem [ref=e622]:
+          - link "Christmas" [ref=e623] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/christmas-collections
+        - listitem [ref=e624]:
+          - link "Family friendly" [ref=e625] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/family-friendly-collections
+        - listitem [ref=e626]:
+          - link "Red meat & game" [ref=e627] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/red-meat-and-game-collections
+        - listitem [ref=e628]:
+          - link "Vegetables" [ref=e629] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/vegetable-collections
+        - listitem [ref=e630]:
+          - link "Cuisine" [ref=e631] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/cuisine-collections
+        - listitem [ref=e632]:
+          - link "Fish & seafood" [ref=e633] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/fish-seafood-collections
+        - listitem [ref=e634]:
+          - link "Religious events" [ref=e635] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/religious-events-collections
+        - listitem [ref=e636]:
+          - link "Vegetarian" [ref=e637] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/vegetarian-collections
+        - listitem [ref=e638]:
+          - link "Desserts" [ref=e639] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dessert-collections
+        - listitem [ref=e640]:
+          - link "Fruit" [ref=e641] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/fruit-collections
+        - listitem [ref=e642]:
+          - link "Salads" [ref=e643] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/collection/salad-collections
+        - listitem [ref=e644]:
+          - link "US recipes" [ref=e645] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/us
+  - alert [ref=e646]

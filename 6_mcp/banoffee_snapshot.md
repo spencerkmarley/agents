@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content":
+      - /url: "#site-main"
+    - generic [ref=e10]:
+      - iframe [ref=e11]:
+        
+      - generic [ref=e12] [cursor=pointer]
+    - generic [ref=e16]:
+      - navigation "Quick links" [ref=e18]
+      - navigation "Account" [ref=e34]
+    - link "Good Food logo in black" [ref=e50] [cursor=pointer]:
+      - /url: https://www.bbcgoodfood.com
+      - img "Good Food logo in black" [ref=e52]
+    - navigation "Main" [ref=e54]:
+      - generic [ref=e55]
+    - main [ref=e93]:
+      - generic [ref=e94]
+    - generic [ref=e1791]:
+      - article [ref=e1793]
+      - article [ref=e1809]
+      - article [ref=e1825]
+    - contentinfo [ref=e1840]:
+      - generic [ref=e1842]
+      - generic [ref=e1906]
+      - list [ref=e1945]
+      - list [ref=e1962]
+  - alert [ref=e2027]
+  - generic [ref=e2028]:
+    - button [ref=e2029] [cursor=pointer]:
+      - img [ref=e2030]
+    - generic [ref=e2035]:
+      - generic [ref=e2036]
+      - link "Subscribe now" [ref=e2040] [cursor=pointer]:
+        - /url: https://www.bbcgoodfood.com/subscribe/?utm_source=zephr&utm_medium=brandsite&utm_campaign=springbakingdigital&utm_content=metering-desktop-anon

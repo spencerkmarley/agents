@@ -1,0 +1,1187 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content":
+      - /url: "#site-main"
+    - generic [ref=e9]:
+      - navigation "Quick links" [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Subscribe" [ref=e14] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/subscribe
+          - listitem [ref=e15]:
+            - link "Sustainability" [ref=e16] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/feature/sustainability
+          - listitem [ref=e17]:
+            - link "Good Food Shows" [ref=e18] [cursor=pointer]:
+              - /url: https://www.goodfoodshow.com/summer/?utm_source=bbcgoodfood.com&utm_medium=referral&utm_campaign=eyebrowbanner
+          - listitem [ref=e19]:
+            - link "GF x Gousto" [ref=e20] [cursor=pointer]:
+              - /url: https://cook.gousto.co.uk/goodfood/?utm_source=goodfood&utm_medium=email&utm_campaign=goodfood&?promo_code=GOODFOOD50
+          - listitem [ref=e21]:
+            - link "Download our app" [ref=e22] [cursor=pointer]:
+              - /url: https://immediate.onelink.me/OQap?af_xp=custom&pid=website&c=homepage_eyebrow&is_mar26_chetnamakan_retargeting=true&af_reengagement_window=30d&af_dp=bbcgoodfood%3A%2F%2F
+          - listitem [ref=e23]:
+            - link "GF x Laithwaites Wine" [ref=e24] [cursor=pointer]:
+              - /url: https://www.laithwaites.co.uk/partnerships/goodfood?cid=PRT/8715001/goodfood/GFEYENAV&/partner&/20251015&/LW&utm_medium=PRT&utm_source=gf&utm_campaign=GFEYENAV
+      - navigation "Account" [ref=e27]:
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - img [ref=e31]
+          - listitem [ref=e33]:
+            - link "Sign in" [ref=e34] [cursor=pointer]:
+              - /url: /api/auth/login
+          - listitem [ref=e35]:
+            - link "Register" [ref=e36] [cursor=pointer]:
+              - /url: /api/auth/signup
+    - link "Good Food logo in black" [ref=e43] [cursor=pointer]:
+      - /url: https://www.bbcgoodfood.com
+      - img "Good Food logo in black" [ref=e45]
+    - navigation "Main" [ref=e47]:
+      - generic [ref=e48]:
+        - menubar [ref=e49]:
+          - menuitem "Recipes" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: Recipes
+            - img [ref=e53]
+          - menuitem "Health" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: Health
+            - img [ref=e58]
+          - menuitem "What to buy" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: What to buy
+            - img [ref=e63]
+          - menuitem "Budget" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: Budget
+            - img [ref=e68]
+          - menuitem "Baking" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: Baking
+          - menuitem "Subscribe" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: Subscribe
+        - search [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: Search
+            - generic [ref=e79]:
+              - img [ref=e82]
+              - textbox "Search" [ref=e84]:
+                - /placeholder: Search recipes...
+    - main [ref=e86]:
+      - generic [ref=e87]:
+        - navigation "Breadcrumb" [ref=e88]:
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link "Home" [ref=e91] [cursor=pointer]:
+                - /url: https://www.bbcgoodfood.com:443
+            - listitem [ref=e92]:
+              - img [ref=e94]
+              - link "Recipes" [ref=e96] [cursor=pointer]:
+                - /url: https://www.bbcgoodfood.com/recipes
+            - listitem [ref=e97]:
+              - img [ref=e99]
+              - generic [ref=e101]: Banoffee pie
+        - generic [ref=e103]:
+          - img "Banoffee pie" [ref=e110]
+          - banner [ref=e111]:
+            - heading "Banoffee pie" [level=1] [ref=e113]
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "Miriam Nice" [ref=e118] [cursor=pointer]:
+                  - /url: /author/miriamnice
+            - generic [ref=e120]:
+              - button "Save recipe" [ref=e121] [cursor=pointer]:
+                - generic [ref=e123]:
+                  - img [ref=e125]
+                  - generic [ref=e127]: Save recipe
+              - button "Manage Collections":
+                - img [ref=e130] [cursor=pointer]
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - strong [ref=e135]: Serves 8 - 10
+                - strong [ref=e137]: Easy
+              - generic [ref=e138]:
+                - generic [ref=e139]:
+                  - text: "Prep:"
+                  - strong [ref=e140]:
+                    - time [ref=e142]: 30 mins
+                - generic [ref=e143]:
+                  - text: "Cook:"
+                  - strong [ref=e144]:
+                    - generic [ref=e145]:
+                      - time [ref=e146]: 30 mins
+                      - text: "-"
+                      - time [ref=e147]: 35 mins
+            - generic [ref=e150]:
+              - link "rating" [ref=e151] [cursor=pointer]:
+                - /url: "#rating"
+                - generic "rating" [ref=e153]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - img [ref=e159]
+                    - img [ref=e162]
+                    - img [ref=e165]
+                    - img [ref=e168]
+                  - generic [ref=e170]: A star rating of 4.8 out of 5.
+                  - generic [ref=e171]: 16 ratings
+                  - generic [ref=e172]: Rate
+              - link "4 comments" [ref=e829] [cursor=pointer]:
+                - /url: "#commentsFeed"
+            - paragraph [ref=e181]: An easy family favourite with buttery pastry and sweet dulce de leche. We recommend a generous dollop of cream to serve
+            - button "Print" [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]:
+                - img [ref=e185]
+                - text: Print
+        - main [ref=e187]:
+          - link "Skip to ingredients":
+            - /url: "#ingredients-list"
+          - generic [ref=e188]:
+            - generic [ref=e190]:
+              - button "Alternatives" [ref=e191] [cursor=pointer]:
+                - generic [ref=e192]: Alternatives
+              - button "Complete the dish" [ref=e193] [cursor=pointer]:
+                - generic [ref=e194]: Complete the dish
+            - generic [ref=e831]:
+              - region [ref=e832]:
+                - paragraph [ref=e833]: Showing items 1 to 3 of 6
+              - generic [ref=e834]:
+                - button "previous item" [ref=e835] [cursor=pointer]:
+                  - generic [ref=e836]:
+                    - generic [ref=e837]: previous item
+                    - img [ref=e840]
+                    - img [ref=e844]
+                - generic [ref=e847]:
+                  - article [ref=e851]:
+                    - link [ref=e854] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                      - img [ref=e858]
+                    - generic [ref=e859]:
+                      - link [ref=e860] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                        - heading [level=6] [ref=e861]: Salted caramel & hazelnut banoffee pie
+                      - generic [ref=e863]:
+                        - generic [ref=e864]:
+                          - img [ref=e866]
+                          - img [ref=e869]
+                          - img [ref=e872]
+                          - img [ref=e875]
+                          - img [ref=e878]
+                        - generic [ref=e880]: A star rating of 4.2 out of 5.
+                        - generic [ref=e881]: 5 ratings
+                  - article [ref=e885]:
+                    - link [ref=e888] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                      - img [ref=e892]
+                    - generic [ref=e893]:
+                      - link [ref=e894] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                        - heading [level=6] [ref=e895]: No-fuss shepherd's pie
+                      - generic [ref=e897]:
+                        - generic [ref=e898]:
+                          - img [ref=e900]
+                          - img [ref=e903]
+                          - img [ref=e906]
+                          - img [ref=e909]
+                          - img [ref=e912]
+                        - generic [ref=e914]: A star rating of 4.8 out of 5.
+                        - generic [ref=e915]: 617 ratings
+                  - article [ref=e919]:
+                    - link [ref=e922] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                      - img [ref=e926]
+                    - generic [ref=e927]:
+                      - link [ref=e928] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                        - heading [level=6] [ref=e929]: Next level banoffee pie
+                      - generic [ref=e931]:
+                        - generic [ref=e932]:
+                          - img [ref=e934]
+                          - img [ref=e937]
+                          - img [ref=e940]
+                          - img [ref=e943]
+                          - img [ref=e946]
+                        - generic [ref=e948]: A star rating of 4 out of 5.
+                        - generic [ref=e949]: 7 ratings
+                  - article [ref=e953]:
+                    - link "View Banoffee pie pancakes. This is a premium piece of content available to subscribed users." [ref=e956] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                      - img "Rustic plate shows pancakes topped with banana and caramel" [ref=e960]
+                    - generic [ref=e961]:
+                      - link "App only|Banoffee pie pancakes . This is a premium piece of content available to subscribed users." [ref=e962] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                        - generic [ref=e964]:
+                          - img [ref=e967]
+                          - img [ref=e971]
+                        - heading "App only|Banoffee pie pancakes . This is a premium piece of content available to subscribed users." [level=6] [ref=e973]:
+                          - text: App only|Banoffee pie pancakes
+                          - generic [ref=e974]: . This is a premium piece of content available to subscribed users.
+                      - generic "rating" [ref=e976]:
+                        - generic [ref=e977]:
+                          - img [ref=e979]
+                          - img [ref=e982]
+                          - img [ref=e985]
+                          - img [ref=e988]
+                          - img [ref=e991]
+                        - generic [ref=e993]: A star rating of 4.6 out of 5.
+                        - generic [ref=e994]: 22 ratings
+                  - article [ref=e998]:
+                    - link "View Easy banoffee pie" [ref=e1001] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                      - img [ref=e1004]
+                      - img "Banoffee pie" [ref=e1009]
+                    - generic [ref=e1010]:
+                      - link "Easy banoffee pie" [ref=e1011] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                        - heading "Easy banoffee pie" [level=6] [ref=e1012]
+                      - generic "rating" [ref=e1014]:
+                        - generic [ref=e1015]:
+                          - img [ref=e1017]
+                          - img [ref=e1020]
+                          - img [ref=e1023]
+                          - img [ref=e1026]
+                          - img [ref=e1029]
+                        - generic [ref=e1031]: A star rating of 4 out of 5.
+                        - generic [ref=e1032]: 91 ratings
+                  - article [ref=e1036]:
+                    - link "View Cottage pie" [ref=e1039] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                      - img "Cottage pie in a rectangular dish with portion taken out" [ref=e1043]
+                    - generic [ref=e1044]:
+                      - link "Cottage pie" [ref=e1045] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                        - heading "Cottage pie" [level=6] [ref=e1046]
+                      - generic "rating" [ref=e1048]:
+                        - generic [ref=e1049]:
+                          - img [ref=e1051]
+                          - img [ref=e1054]
+                          - img [ref=e1057]
+                          - img [ref=e1060]
+                          - img [ref=e1063]
+                        - generic [ref=e1065]: A star rating of 4.8 out of 5.
+                        - generic [ref=e1066]: 1142 ratings
+                  - article [ref=e1070]:
+                    - link [ref=e1073] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                      - img [ref=e1077]
+                    - generic [ref=e1078]:
+                      - link [ref=e1079] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                        - heading [level=6] [ref=e1080]: Salted caramel & hazelnut banoffee pie
+                      - generic [ref=e1082]:
+                        - generic [ref=e1083]:
+                          - img [ref=e1085]
+                          - img [ref=e1088]
+                          - img [ref=e1091]
+                          - img [ref=e1094]
+                          - img [ref=e1097]
+                        - generic [ref=e1099]: A star rating of 4.2 out of 5.
+                        - generic [ref=e1100]: 5 ratings
+                  - article [ref=e1104]:
+                    - link [ref=e1107] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                      - img [ref=e1111]
+                    - generic [ref=e1112]:
+                      - link [ref=e1113] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                        - heading [level=6] [ref=e1114]: No-fuss shepherd's pie
+                      - generic [ref=e1116]:
+                        - generic [ref=e1117]:
+                          - img [ref=e1119]
+                          - img [ref=e1122]
+                          - img [ref=e1125]
+                          - img [ref=e1128]
+                          - img [ref=e1131]
+                        - generic [ref=e1133]: A star rating of 4.8 out of 5.
+                        - generic [ref=e1134]: 617 ratings
+                  - article [ref=e1138]:
+                    - link [ref=e1141] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                      - img [ref=e1145]
+                    - generic [ref=e1146]:
+                      - link [ref=e1147] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                        - heading [level=6] [ref=e1148]: Next level banoffee pie
+                      - generic [ref=e1150]:
+                        - generic [ref=e1151]:
+                          - img [ref=e1153]
+                          - img [ref=e1156]
+                          - img [ref=e1159]
+                          - img [ref=e1162]
+                          - img [ref=e1165]
+                        - generic [ref=e1167]: A star rating of 4 out of 5.
+                        - generic [ref=e1168]: 7 ratings
+                  - article [ref=e1172]:
+                    - link [ref=e1175] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                      - img [ref=e1179]
+                    - generic [ref=e1180]:
+                      - link [ref=e1181] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                        - generic [ref=e1183]:
+                          - img [ref=e1186]
+                          - img [ref=e1190]
+                        - heading [level=6] [ref=e1192]:
+                          - text: App only|Banoffee pie pancakes
+                          - generic [ref=e1193]: . This is a premium piece of content available to subscribed users.
+                      - generic [ref=e1195]:
+                        - generic [ref=e1196]:
+                          - img [ref=e1198]
+                          - img [ref=e1201]
+                          - img [ref=e1204]
+                          - img [ref=e1207]
+                          - img [ref=e1210]
+                        - generic [ref=e1212]: A star rating of 4.6 out of 5.
+                        - generic [ref=e1213]: 22 ratings
+                  - article [ref=e1217]:
+                    - link [ref=e1220] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                      - img [ref=e1223]
+                      - img [ref=e1228]
+                    - generic [ref=e1229]:
+                      - link [ref=e1230] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                        - heading [level=6] [ref=e1231]: Easy banoffee pie
+                      - generic [ref=e1233]:
+                        - generic [ref=e1234]:
+                          - img [ref=e1236]
+                          - img [ref=e1239]
+                          - img [ref=e1242]
+                          - img [ref=e1245]
+                          - img [ref=e1248]
+                        - generic [ref=e1250]: A star rating of 4 out of 5.
+                        - generic [ref=e1251]: 91 ratings
+                  - article [ref=e1255]:
+                    - link [ref=e1258] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                      - img [ref=e1262]
+                    - generic [ref=e1263]:
+                      - link [ref=e1264] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                        - heading [level=6] [ref=e1265]: Cottage pie
+                      - generic [ref=e1267]:
+                        - generic [ref=e1268]:
+                          - img [ref=e1270]
+                          - img [ref=e1273]
+                          - img [ref=e1276]
+                          - img [ref=e1279]
+                          - img [ref=e1282]
+                        - generic [ref=e1284]: A star rating of 4.8 out of 5.
+                        - generic [ref=e1285]: 1142 ratings
+                  - article [ref=e1289]:
+                    - link [ref=e1292] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                      - img [ref=e1296]
+                    - generic [ref=e1297]:
+                      - link [ref=e1298] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                        - heading [level=6] [ref=e1299]: Salted caramel & hazelnut banoffee pie
+                      - generic [ref=e1301]:
+                        - generic [ref=e1302]:
+                          - img [ref=e1304]
+                          - img [ref=e1307]
+                          - img [ref=e1310]
+                          - img [ref=e1313]
+                          - img [ref=e1316]
+                        - generic [ref=e1318]: A star rating of 4.2 out of 5.
+                        - generic [ref=e1319]: 5 ratings
+                  - article [ref=e1323]:
+                    - link [ref=e1326] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                      - img [ref=e1330]
+                    - generic [ref=e1331]:
+                      - link [ref=e1332] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                        - heading [level=6] [ref=e1333]: No-fuss shepherd's pie
+                      - generic [ref=e1335]:
+                        - generic [ref=e1336]:
+                          - img [ref=e1338]
+                          - img [ref=e1341]
+                          - img [ref=e1344]
+                          - img [ref=e1347]
+                          - img [ref=e1350]
+                        - generic [ref=e1352]: A star rating of 4.8 out of 5.
+                        - generic [ref=e1353]: 617 ratings
+                  - article [ref=e1357]:
+                    - link [ref=e1360] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                      - img [ref=e1364]
+                    - generic [ref=e1365]:
+                      - link [ref=e1366] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                        - heading [level=6] [ref=e1367]: Next level banoffee pie
+                      - generic [ref=e1369]:
+                        - generic [ref=e1370]:
+                          - img [ref=e1372]
+                          - img [ref=e1375]
+                          - img [ref=e1378]
+                          - img [ref=e1381]
+                          - img [ref=e1384]
+                        - generic [ref=e1386]: A star rating of 4 out of 5.
+                        - generic [ref=e1387]: 7 ratings
+                - button "next item" [ref=e1388] [cursor=pointer]:
+                  - generic [ref=e1389]:
+                    - generic [ref=e1390]: next item
+                    - img [ref=e1393]
+                    - img [ref=e1397]
+                - navigation "pagination" [ref=e1399]:
+                  - list [ref=e1401]:
+                    - listitem [ref=e1402]:
+                      - button "Page 1" [ref=e1403] [cursor=pointer]:
+                        - generic [ref=e1404]: Page 1
+                    - listitem [ref=e1405]:
+                      - button "Page 2" [ref=e1406] [cursor=pointer]:
+                        - generic [ref=e1407]: Page 2
+          - generic [ref=e198]:
+            - generic [ref=e200]:
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - heading "Ingredients" [level=2] [ref=e206]:
+                      - button "Ingredients" [ref=e207] [cursor=pointer]
+                    - heading "Nutrition" [level=2] [ref=e208]:
+                      - button "Nutrition" [ref=e209] [cursor=pointer]
+                  - generic [ref=e212]:
+                    - list [ref=e214]:
+                      - listitem [ref=e215]:
+                        - text: "4"
+                        - link "bananas" [ref=e216] [cursor=pointer]:
+                          - /url: /glossary/banana-glossary
+                        - generic [ref=e217]: sliced
+                      - listitem [ref=e218]:
+                        - text: 394g
+                        - link "caramel" [ref=e219] [cursor=pointer]:
+                          - /url: /glossary/caramel-glossary
+                        - generic [ref=e220]: or dulce de leche
+                      - listitem [ref=e221]:
+                        - text: 300ml
+                        - link "double cream" [ref=e222] [cursor=pointer]:
+                          - /url: /glossary/cream-glossary
+                      - listitem [ref=e223]:
+                        - link "dark chocolate" [ref=e224] [cursor=pointer]:
+                          - /url: /glossary/dark-chocolate-glossary
+                        - generic [ref=e225]: (optional)
+                    - generic [ref=e226]:
+                      - heading "For the pastry" [level=3] [ref=e227]
+                      - list [ref=e228]:
+                        - listitem [ref=e229]:
+                          - text: 100g
+                          - link "butter" [ref=e230] [cursor=pointer]:
+                            - /url: /glossary/butter-glossary
+                          - generic [ref=e231]: chilled (plus extra for greasing)
+                        - listitem [ref=e232]:
+                          - text: 200g
+                          - link "plain flour" [ref=e233] [cursor=pointer]:
+                            - /url: /glossary/flour-glossary
+                        - listitem [ref=e234]:
+                          - text: "1"
+                          - link "medium egg" [ref=e235] [cursor=pointer]:
+                            - /url: /glossary/egg-glossary
+                          - generic [ref=e236]: separated
+                        - listitem [ref=e237]:
+                          - text: 1 tbsp
+                          - link "golden caster sugar" [ref=e238] [cursor=pointer]:
+                            - /url: /glossary/sugar-glossary
+                    - generic [ref=e243]:
+                      - text: Keep the screen awake with cook mode on the
+                      - link "Good Food app." [ref=e244] [cursor=pointer]:
+                        - /url: https://immediate.onelink.me/OQap?af_xp=custom&pid=website&c=ingredients_CTA&is_retargeting=true&af_reengagement_window=30d&af_dp=bbcgoodfood%3A%2F%2F
+                - generic [ref=e248]: Ad
+                - generic [ref=e250]:
+                  - heading "Method" [level=2] [ref=e251]
+                  - list [ref=e252]:
+                    - listitem [ref=e253]:
+                      - heading "step 1" [level=3] [ref=e254]
+                      - paragraph [ref=e256]: Start by making the pastry case. Put the butter and flour in a food processor and pulse until it resembles fresh breadcrumbs. Add the yolk of the egg and the sugar and pulse again until mixed through then, add a tbsp at a time of very cold water pulsing the processor after each addition. Stop adding water as soon as the dough starts to come together as one piece.
+                    - listitem [ref=e257]:
+                      - heading "step 2" [level=3] [ref=e258]
+                      - paragraph [ref=e260]: Remove the dough from the processor and continue to bring together by kneading gently with your hands. Once you have a smooth ball of dough wrap it tightly in cling film and chill in the fridge for 30mins.
+                    - listitem [ref=e261]:
+                      - heading "step 3" [level=3] [ref=e262]
+                      - paragraph [ref=e264]: Heat oven to 190C/170C/gas 4 and grease a 23cm loose bottomed fluted tart tin. Roll out the chilled pastry on a lightly floured surface and use it to line the tin. Leave about half a cm of pastry proud of the edge of the tin - snipping it to length with kitchen scissors.
+                    - listitem [ref=e265]:
+                      - heading "step 4" [level=3] [ref=e266]
+                      - paragraph [ref=e268]: Line the base with a piece of baking parchment and weigh it down with baking beans or uncooked rice. Bake for 15 mins then remove the paper and beans and brush the pastry surface with beaten egg white. Return to the oven for a further 15-20 mins or until crisp, golden and cooked through. Leave to cool completely (can be done a day ahead).
+                    - listitem [ref=e269]:
+                      - heading "step 5" [level=3] [ref=e270]
+                      - paragraph [ref=e272]: Spread half of the caramel on the case of the pastry case and layer the sliced bananas on top. Cover with the rest of the caramel and place in the fridge.
+                    - listitem [ref=e273]:
+                      - heading "step 6" [level=3] [ref=e274]
+                      - paragraph [ref=e276]: Whip the cream until billowy thick and spoon it over the top of the tart. To serve finely grate over a 1-2 pieces of dark chocolate to garnish.
+              - heading "Sponsored content" [level=2] [ref=e277]
+              - generic [ref=e279]:
+                - heading "Comments, questions and tips (4)" [level=2] [ref=e1408]
+                - generic [ref=e284]:
+                  - heading "Rate this recipe" [level=3] [ref=e285]
+                  - group "What is your star rating out of 5?" [ref=e286]:
+                    - generic [ref=e287]: What is your star rating out of 5?
+                    - generic [ref=e288] [cursor=pointer]:
+                      - generic [ref=e289]: 1 star out of 5
+                      - radio "1 star out of 5" [ref=e290]
+                      - img [ref=e292]
+                    - generic [ref=e294] [cursor=pointer]:
+                      - generic [ref=e295]: 2 stars out of 5
+                      - radio "2 stars out of 5" [ref=e296]
+                      - img [ref=e298]
+                    - generic [ref=e300] [cursor=pointer]:
+                      - generic [ref=e301]: 3 stars out of 5
+                      - radio "3 stars out of 5" [ref=e302]
+                      - img [ref=e304]
+                    - generic [ref=e306] [cursor=pointer]:
+                      - generic [ref=e307]: 4 stars out of 5
+                      - radio "4 stars out of 5" [ref=e308]
+                      - img [ref=e310]
+                    - generic [ref=e312] [cursor=pointer]:
+                      - generic [ref=e313]: 5 stars out of 5
+                      - radio "5 stars out of 5" [ref=e314]
+                      - img [ref=e316]
+                - generic [ref=e321]:
+                  - heading "Choose the type of message you'd like to post" [level=3] [ref=e322]
+                  - group "Choose the type of message you'd like to post" [ref=e323]:
+                    - generic [ref=e324]: Choose the type of message you'd like to post
+                    - generic [ref=e325] [cursor=pointer]:
+                      - radio "Comment" [ref=e326]
+                      - generic [ref=e327]:
+                        - img [ref=e329]
+                        - generic [ref=e331]: Comment
+                    - generic [ref=e332] [cursor=pointer]:
+                      - radio "Question" [ref=e333]
+                      - generic [ref=e334]:
+                        - img [ref=e336]
+                        - generic [ref=e338]: Question
+                    - generic [ref=e339] [cursor=pointer]:
+                      - radio "Tip" [ref=e340]
+                      - generic [ref=e341]:
+                        - img [ref=e343]
+                        - generic [ref=e345]: Tip
+                - generic [ref=e346]:
+                  - heading "Overall rating" [level=3] [ref=e347]
+                  - generic "rating" [ref=e349]:
+                    - generic [ref=e350]:
+                      - img [ref=e352]
+                      - img [ref=e355]
+                      - img [ref=e358]
+                      - img [ref=e361]
+                      - img [ref=e364]
+                    - generic [ref=e366]: A star rating of 4.8 out of 5.
+                    - generic [ref=e367]: 16 ratings
+                - article [ref=e368]:
+                  - generic [ref=e369]:
+                    - generic [ref=e370]:
+                      - img [ref=e373]
+                      - generic [ref=e375]:
+                        - heading "gavkatekemmett" [level=4] [ref=e376]
+                        - time [ref=e377]: 1 year ago
+                    - generic [ref=e378]: question
+                  - paragraph [ref=e380]: I've got a can of light condensed milk in the cupboard, can I make caramel with this?
+                  - button "Reply" [ref=e382] [cursor=pointer]:
+                    - generic [ref=e383]: Reply
+                - article [ref=e384]:
+                  - generic [ref=e385]:
+                    - generic [ref=e386]:
+                      - img [ref=e389]
+                      - generic [ref=e391]:
+                        - heading "Mandytownend100" [level=4] [ref=e392]
+                        - time [ref=e393]: 2 years ago
+                    - generic [ref=e394]: question
+                  - paragraph [ref=e396]: Does anyone know whether this can be made ahead and freezed? If so, at which step would you freeze it at? Thanks.
+                  - button "Reply" [ref=e398] [cursor=pointer]:
+                    - generic [ref=e399]: Reply
+                  - article [ref=e400]:
+                    - generic [ref=e402]:
+                      - img "goodfoodteam avatar" [ref=e407]
+                      - generic [ref=e408]:
+                        - heading "goodfoodteam" [level=5] [ref=e409]
+                        - time [ref=e410]: 2 years ago
+                    - paragraph [ref=e412]: Hi, you can freeze the pastry case but not once filled. We hope this helps. Best wishes, BBC Good Food Team.
+                - article [ref=e414]:
+                  - generic [ref=e415]:
+                    - generic [ref=e416]:
+                      - img [ref=e419]
+                      - generic [ref=e421]:
+                        - heading "honorvine" [level=4] [ref=e422]
+                        - time [ref=e423]: 3 years ago
+                    - generic [ref=e424]: question
+                  - paragraph [ref=e426]: hi can you make this and leave in the fridge over night?
+                  - button "Reply" [ref=e428] [cursor=pointer]:
+                    - generic [ref=e429]: Reply
+                  - article [ref=e430]:
+                    - generic [ref=e432]:
+                      - img "goodfoodteam avatar" [ref=e437]
+                      - generic [ref=e438]:
+                        - heading "goodfoodteam" [level=5] [ref=e439]
+                        - time [ref=e440]: 3 years ago
+                    - paragraph [ref=e442]: Hi, it's best served freshly made but it will be fine kept in the fridge overnight. If possible, top with the whipped cream on the day you're serving. We hope this helps. Best wishes, BBC Good Food Team.
+                - article [ref=e444]:
+                  - generic [ref=e446]:
+                    - img [ref=e449]
+                    - generic [ref=e451]:
+                      - heading "goodEmfood" [level=4] [ref=e452]
+                      - time [ref=e453]: 8 years ago
+                  - generic "rating" [ref=e455]:
+                    - generic [ref=e456]:
+                      - img [ref=e458]
+                      - img [ref=e461]
+                      - img [ref=e464]
+                      - img [ref=e467]
+                      - img [ref=e470]
+                    - generic [ref=e472]: A star rating of 5 out of 5.
+                  - paragraph [ref=e474]: Instead of pastry, couldn't you put it in a tin with a crumbled biscuit base? If you are s bit short on time this would be the easiest option. Happy baking!
+                  - button "Reply" [ref=e476] [cursor=pointer]:
+                    - generic [ref=e477]: Reply
+                  - article [ref=e478]:
+                    - generic [ref=e480]:
+                      - img [ref=e483]
+                      - generic [ref=e485]:
+                        - heading "HarryBo75" [level=5] [ref=e486]
+                        - time [ref=e487]: 5 years ago
+                    - generic [ref=e488]:
+                      - paragraph [ref=e489]: I'd go for a buttery biscuit base myself.
+                      - paragraph [ref=e490]: Cheers
+                      - paragraph [ref=e491]: Gregg
+            - generic [ref=e494]:
+              - generic [ref=e499]: Ad
+              - generic [ref=e506]: Ad
+              - generic [ref=e509]:
+                - generic [ref=e511]:
+                  - link "SM00175 Spring-1080x1080-sidebar" [ref=e512] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/subscribe?utm_source=fabric&utm_medium=brandsite&utm_content=sidebar-widget&utm_campaign=326cspring-26
+                    - img "SM00175 Spring-1080x1080-sidebar" [ref=e516]
+                  - generic [ref=e517]:
+                    - link "Savour the season" [ref=e518] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/subscribe?utm_source=fabric&utm_medium=brandsite&utm_content=sidebar-widget&utm_campaign=326cspring-26
+                      - heading "Savour the season" [level=2] [ref=e519]
+                    - generic [ref=e521]: Turn ordinary meals into something special with Good Food All Access for just £9.99 for 6 month.
+                    - button "Subscribe today" [ref=e522] [cursor=pointer]:
+                      - generic [ref=e523]: Subscribe today
+                - generic [ref=e1409]:
+                  - heading "Related guides" [level=4] [ref=e1410]
+                  - generic [ref=e1411]:
+                    - article [ref=e1413]:
+                      - link "View Banoffee pie pancakes. This is a premium piece of content available to subscribed users." [ref=e1416] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                        - img "Rustic plate shows pancakes topped with banana and caramel" [ref=e1420]
+                      - generic [ref=e1421]:
+                        - link "App only|Banoffee pie pancakes . This is a premium piece of content available to subscribed users." [ref=e1422] [cursor=pointer]:
+                          - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                          - generic [ref=e1424]:
+                            - img [ref=e1427]
+                            - img [ref=e1431]
+                          - heading "App only|Banoffee pie pancakes . This is a premium piece of content available to subscribed users." [level=4] [ref=e1433]:
+                            - text: App only|Banoffee pie pancakes
+                            - generic [ref=e1434]: . This is a premium piece of content available to subscribed users.
+                        - generic "rating" [ref=e1436]:
+                          - generic [ref=e1437]:
+                            - img [ref=e1439]
+                            - img [ref=e1442]
+                            - img [ref=e1445]
+                            - img [ref=e1448]
+                            - img [ref=e1451]
+                          - generic [ref=e1453]: A star rating of 4.6 out of 5.
+                          - generic [ref=e1454]: 22 ratings
+                    - article [ref=e1456]:
+                      - link "View Easy banoffee pie" [ref=e1459] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                        - img [ref=e1462]
+                        - img "Banoffee pie" [ref=e1467]
+                      - generic [ref=e1468]:
+                        - link "Easy banoffee pie" [ref=e1469] [cursor=pointer]:
+                          - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                          - heading "Easy banoffee pie" [level=4] [ref=e1470]
+                        - generic "rating" [ref=e1472]:
+                          - generic [ref=e1473]:
+                            - img [ref=e1475]
+                            - img [ref=e1478]
+                            - img [ref=e1481]
+                            - img [ref=e1484]
+                            - img [ref=e1487]
+                          - generic [ref=e1489]: A star rating of 4 out of 5.
+                          - generic [ref=e1490]: 91 ratings
+                    - article [ref=e1492]:
+                      - link "View Cottage pie" [ref=e1495] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                        - img "Cottage pie in a rectangular dish with portion taken out" [ref=e1499]
+                      - generic [ref=e1500]:
+                        - link "Cottage pie" [ref=e1501] [cursor=pointer]:
+                          - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                          - heading "Cottage pie" [level=4] [ref=e1502]
+                        - generic "rating" [ref=e1504]:
+                          - generic [ref=e1505]:
+                            - img [ref=e1507]
+                            - img [ref=e1510]
+                            - img [ref=e1513]
+                            - img [ref=e1516]
+                            - img [ref=e1519]
+                          - generic [ref=e1521]: A star rating of 4.8 out of 5.
+                          - generic [ref=e1522]: 1142 ratings
+                    - article [ref=e1524]:
+                      - link "View Salted caramel & hazelnut banoffee pie" [ref=e1527] [cursor=pointer]:
+                        - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                        - img "Salted caramel & hazelnut banoffee pie" [ref=e1531]
+                      - generic [ref=e1532]:
+                        - link "Salted caramel & hazelnut banoffee pie" [ref=e1533] [cursor=pointer]:
+                          - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                          - heading "Salted caramel & hazelnut banoffee pie" [level=4] [ref=e1534]
+                        - generic "rating" [ref=e1536]:
+                          - generic [ref=e1537]:
+                            - img [ref=e1539]
+                            - img [ref=e1542]
+                            - img [ref=e1545]
+                            - img [ref=e1548]
+                            - img [ref=e1551]
+                          - generic [ref=e1553]: A star rating of 4.2 out of 5.
+                          - generic [ref=e1554]: 5 ratings
+              - generic [ref=e530]: Ad
+          - generic [ref=e532]:
+            - generic [ref=e1555]:
+              - heading "You may also like" [level=4] [ref=e1556]
+              - generic [ref=e1557]:
+                - article [ref=e1559]:
+                  - link "View Banoffee pie pancakes. This is a premium piece of content available to subscribed users." [ref=e1562] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                    - generic [ref=e1565]:
+                      - generic [ref=e1566]: Premium
+                      - img [ref=e1570]
+                    - img "Rustic plate shows pancakes topped with banana and caramel" [ref=e1575]
+                  - generic [ref=e1576]:
+                    - link "App only|Banoffee pie pancakes . This is a premium piece of content available to subscribed users." [ref=e1577] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/premium/banoffee-pie-pancakes
+                      - heading "App only|Banoffee pie pancakes . This is a premium piece of content available to subscribed users." [level=4] [ref=e1578]:
+                        - text: App only|Banoffee pie pancakes
+                        - generic [ref=e1579]: . This is a premium piece of content available to subscribed users.
+                    - generic "rating" [ref=e1581]:
+                      - generic [ref=e1582]:
+                        - img [ref=e1584]
+                        - img [ref=e1587]
+                        - img [ref=e1590]
+                        - img [ref=e1593]
+                        - img [ref=e1596]
+                      - generic [ref=e1598]: A star rating of 4.6 out of 5.
+                      - generic [ref=e1599]: 22 ratings
+                - article [ref=e1601]:
+                  - link "View Easy banoffee pie" [ref=e1604] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                    - img [ref=e1607]
+                    - img "Banoffee pie" [ref=e1612]
+                  - generic [ref=e1613]:
+                    - link "Easy banoffee pie" [ref=e1614] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/easy-banoffee-pie
+                      - heading "Easy banoffee pie" [level=4] [ref=e1615]
+                    - generic "rating" [ref=e1617]:
+                      - generic [ref=e1618]:
+                        - img [ref=e1620]
+                        - img [ref=e1623]
+                        - img [ref=e1626]
+                        - img [ref=e1629]
+                        - img [ref=e1632]
+                      - generic [ref=e1634]: A star rating of 4 out of 5.
+                      - generic [ref=e1635]: 91 ratings
+                - article [ref=e1637]:
+                  - link "View Cottage pie" [ref=e1640] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                    - img "Cottage pie in a rectangular dish with portion taken out" [ref=e1644]
+                  - generic [ref=e1645]:
+                    - link "Cottage pie" [ref=e1646] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/cottage-pie
+                      - heading "Cottage pie" [level=4] [ref=e1647]
+                    - generic "rating" [ref=e1649]:
+                      - generic [ref=e1650]:
+                        - img [ref=e1652]
+                        - img [ref=e1655]
+                        - img [ref=e1658]
+                        - img [ref=e1661]
+                        - img [ref=e1664]
+                      - generic [ref=e1666]: A star rating of 4.8 out of 5.
+                      - generic [ref=e1667]: 1142 ratings
+                - article [ref=e1669]:
+                  - link "View Salted caramel & hazelnut banoffee pie" [ref=e1672] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                    - img "Salted caramel & hazelnut banoffee pie" [ref=e1676]
+                  - generic [ref=e1677]:
+                    - link "Salted caramel & hazelnut banoffee pie" [ref=e1678] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/salted-caramel-hazelnut-banoffee-pie
+                      - heading "Salted caramel & hazelnut banoffee pie" [level=4] [ref=e1679]
+                    - generic "rating" [ref=e1681]:
+                      - generic [ref=e1682]:
+                        - img [ref=e1684]
+                        - img [ref=e1687]
+                        - img [ref=e1690]
+                        - img [ref=e1693]
+                        - img [ref=e1696]
+                      - generic [ref=e1698]: A star rating of 4.2 out of 5.
+                      - generic [ref=e1699]: 5 ratings
+                - article [ref=e1701]:
+                  - link "View No-fuss shepherd's pie" [ref=e1704] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                    - img "Shepherd's pie with portion taken out and serving spoon" [ref=e1708]
+                  - generic [ref=e1709]:
+                    - link "No-fuss shepherd's pie" [ref=e1710] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie
+                      - heading "No-fuss shepherd's pie" [level=4] [ref=e1711]
+                    - generic "rating" [ref=e1713]:
+                      - generic [ref=e1714]:
+                        - img [ref=e1716]
+                        - img [ref=e1719]
+                        - img [ref=e1722]
+                        - img [ref=e1725]
+                        - img [ref=e1728]
+                      - generic [ref=e1730]: A star rating of 4.8 out of 5.
+                      - generic [ref=e1731]: 617 ratings
+                - article [ref=e1733]:
+                  - link "View Next level banoffee pie" [ref=e1736] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                    - img "Banoffee pie served on a plate" [ref=e1740]
+                  - generic [ref=e1741]:
+                    - link "Next level banoffee pie" [ref=e1742] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/next-level-banoffee-pie
+                      - heading "Next level banoffee pie" [level=4] [ref=e1743]
+                    - generic "rating" [ref=e1745]:
+                      - generic [ref=e1746]:
+                        - img [ref=e1748]
+                        - img [ref=e1751]
+                        - img [ref=e1754]
+                        - img [ref=e1757]
+                        - img [ref=e1760]
+                      - generic [ref=e1762]: A star rating of 4 out of 5.
+                      - generic [ref=e1763]: 7 ratings
+                - article [ref=e1765]:
+                  - link "View Pumpkin pie" [ref=e1768] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/pumpkin-pie
+                    - img [ref=e1771]
+                    - img "A sweet pumpkin pie on a serving dish with one slice served on a plate" [ref=e1776]
+                  - generic [ref=e1777]:
+                    - link "Pumpkin pie" [ref=e1778] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/pumpkin-pie
+                      - heading "Pumpkin pie" [level=4] [ref=e1779]
+                    - generic "rating" [ref=e1781]:
+                      - generic [ref=e1782]:
+                        - img [ref=e1784]
+                        - img [ref=e1787]
+                        - img [ref=e1790]
+                        - img [ref=e1793]
+                        - img [ref=e1796]
+                      - generic [ref=e1798]: A star rating of 4.3 out of 5.
+                      - generic [ref=e1799]: 163 ratings
+                - article [ref=e1801]:
+                  - link "View Grown-up banoffee pie" [ref=e1804] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/grown-banoffee-pie
+                    - img "Grown-up banoffee pie" [ref=e1808]
+                  - generic [ref=e1809]:
+                    - link "Grown-up banoffee pie" [ref=e1810] [cursor=pointer]:
+                      - /url: https://www.bbcgoodfood.com/recipes/grown-banoffee-pie
+                      - heading "Grown-up banoffee pie" [level=4] [ref=e1811]
+                    - generic "rating" [ref=e1813]:
+                      - generic [ref=e1814]:
+                        - img [ref=e1816]
+                        - img [ref=e1819]
+                        - img [ref=e1822]
+                        - img [ref=e1825]
+                        - img [ref=e1828]
+                      - generic [ref=e1830]: A star rating of 4.3 out of 5.
+                      - generic [ref=e1831]: 13 ratings
+            - heading "Sponsored content" [level=2] [ref=e534]
+            - generic [ref=e536]:
+              - heading "Related recipe collections" [level=4] [ref=e537]
+              - generic [ref=e538]:
+                - article [ref=e540]:
+                  - link "View Pie recipes" [ref=e543] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/pie-recipes
+                    - img "Chicken, kale & mushroom pot pie" [ref=e547]
+                  - link "Pie recipes" [ref=e549] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/pie-recipes
+                    - heading "Pie recipes" [level=4] [ref=e550]
+                - article [ref=e552]:
+                  - link "View Pumpkin pie recipes" [ref=e555] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/pumpkin-pie-recipes
+                    - img "Pumpkin pie topped with stem ginger cream" [ref=e559]
+                  - link "Pumpkin pie recipes" [ref=e561] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/pumpkin-pie-recipes
+                    - heading "Pumpkin pie recipes" [level=4] [ref=e562]
+                - article [ref=e564]:
+                  - link "View Retro dessert" [ref=e567] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/retro-dessert-recipes
+                    - img "Iced buns with jam and cream" [ref=e571]
+                  - link "Retro dessert" [ref=e573] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/retro-dessert-recipes
+                    - heading "Retro dessert" [level=4] [ref=e574]
+                - article [ref=e576]:
+                  - link "View Vegetarian pie" [ref=e579] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/vegetarian-pie-recipes
+                    - img "Chard, lemon & cheese filo pastry pie with slice out" [ref=e583]
+                  - link "Vegetarian pie" [ref=e585] [cursor=pointer]:
+                    - /url: https://www.bbcgoodfood.com/recipes/collection/vegetarian-pie-recipes
+                    - heading "Vegetarian pie" [level=4] [ref=e586]
+    - generic [ref=e592]:
+      - article [ref=e594]:
+        - link "View Explore our recipe app" [ref=e597] [cursor=pointer]:
+          - /url: https://immediate.onelink.me/OQap/np1ykpdl
+          - img "Good Food App Footer Prepped Not Processed" [ref=e601]
+        - generic [ref=e602]:
+          - link "Explore our recipe app" [ref=e603] [cursor=pointer]:
+            - /url: https://immediate.onelink.me/OQap/np1ykpdl
+            - heading "Explore our recipe app" [level=4] [ref=e604]
+          - paragraph [ref=e606]: Subscribe now and get access to exclusive recipes, meal plans, podcasts and more.
+          - button "Try today" [ref=e607] [cursor=pointer]:
+            - generic [ref=e608]: Try today
+      - article [ref=e610]:
+        - link "View Savour the season" [ref=e613] [cursor=pointer]:
+          - /url: https://www.bbcgoodfood.com/subscribe?tab=digital&utm_source=fabric&utm_medium=brandsite&utm_campaign=326cspring-26&utm_content=footer-widget
+          - img "SM00175_Spring-brandsite footer Widget-180x180" [ref=e617]
+        - generic [ref=e618]:
+          - link "Savour the season" [ref=e619] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/subscribe?tab=digital&utm_source=fabric&utm_medium=brandsite&utm_campaign=326cspring-26&utm_content=footer-widget
+            - heading "Savour the season" [level=4] [ref=e620]
+          - paragraph [ref=e622]: Turn ordinary meals into something special with Good Food All Access for just £9.99 for 6 month.
+          - button "Subscribe today" [ref=e623] [cursor=pointer]:
+            - generic [ref=e624]: Subscribe today
+      - article [ref=e626]:
+        - link "View Podcast" [ref=e629] [cursor=pointer]:
+          - /url: https://www.bbcgoodfood.com/feature/podcasts
+          - img "Good Food Podcast with Samuel Goldsmith cover" [ref=e633]
+        - generic [ref=e634]:
+          - link "Podcast" [ref=e635] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/feature/podcasts
+            - heading "Podcast" [level=4] [ref=e636]
+          - paragraph [ref=e638]: Our food team shares tips, techniques and their all-time favourite recipes in our lively weekly podcast.
+          - button "More" [ref=e639] [cursor=pointer]:
+            - generic [ref=e640]: More
+    - contentinfo [ref=e641]:
+      - generic [ref=e643]:
+        - link "Good Food logo in white colour" [ref=e645] [cursor=pointer]:
+          - /url: https://www.bbcgoodfood.com
+          - img "Good Food logo in white colour" [ref=e647]
+        - list [ref=e649]:
+          - listitem [ref=e650]:
+            - link "Visit us on Facebook" [ref=e651] [cursor=pointer]:
+              - /url: https://www.facebook.com/goodfoodeveryday
+              - generic [ref=e652]:
+                - generic [ref=e653]: Visit us on Facebook
+                - img [ref=e656]
+          - listitem [ref=e658]:
+            - link "Visit us on Twitter" [ref=e659] [cursor=pointer]:
+              - /url: https://twitter.com/@BBCgoodfood
+              - generic [ref=e660]:
+                - generic [ref=e661]: Visit us on Twitter
+                - img [ref=e664]
+          - listitem [ref=e666]:
+            - link "Visit us on Instagram" [ref=e667] [cursor=pointer]:
+              - /url: https://www.instagram.com/goodfoodeveryday
+              - generic [ref=e668]:
+                - generic [ref=e669]: Visit us on Instagram
+                - img [ref=e672]
+          - listitem [ref=e674]:
+            - link "Visit us on Pinterest" [ref=e675] [cursor=pointer]:
+              - /url: http://uk.pinterest.com/goodfood
+              - generic [ref=e676]:
+                - generic [ref=e677]: Visit us on Pinterest
+                - img [ref=e680]
+          - listitem [ref=e682]:
+            - link "Visit us on Youtube" [ref=e683] [cursor=pointer]:
+              - /url: https://www.youtube.com/@GoodFood
+              - generic [ref=e684]:
+                - generic [ref=e685]: Visit us on Youtube
+                - img [ref=e688]
+          - listitem [ref=e690]:
+            - link "Visit us on Tiktok" [ref=e691] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@goodfood
+              - generic [ref=e692]:
+                - generic [ref=e693]: Visit us on Tiktok
+                - img [ref=e696]
+          - listitem [ref=e698]:
+            - link "Visit us on Rss" [ref=e699] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/feed/atom/
+              - generic [ref=e700]:
+                - generic [ref=e701]: Visit us on Rss
+                - img [ref=e704]
+      - generic [ref=e707]:
+        - list [ref=e709]:
+          - listitem [ref=e710]:
+            - link "About us" [ref=e711] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/about-bbc-good-food
+          - listitem [ref=e712]:
+            - link "Contact Us" [ref=e713] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/contact-us
+          - listitem [ref=e714]:
+            - link "Privacy Queries" [ref=e715] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/privacy-policy-form
+          - listitem [ref=e716]:
+            - link "Privacy Policy" [ref=e717] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/privacy/
+          - listitem [ref=e718]:
+            - link "Terms & Conditions" [ref=e719] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/terms-and-conditions/
+          - listitem [ref=e720]:
+            - link "Cookies Policy" [ref=e721] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/cookies/
+          - listitem [ref=e722]:
+            - link "Complaints escalation" [ref=e723] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/complaints-escalation/
+          - listitem [ref=e724]:
+            - link "Advertise" [ref=e725] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/brands/bbc-good-food-magazine/#advertising
+          - listitem [ref=e726]:
+            - link "Accessibility" [ref=e727] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/accessibility/
+          - listitem [ref=e728]:
+            - link "Sustainability" [ref=e729] [cursor=pointer]:
+              - /url: https://www.bbcgoodfood.com/feature/sustainability
+          - listitem [ref=e730]:
+            - link "AI Policy" [ref=e731] [cursor=pointer]:
+              - /url: https://www.immediate.co.uk/genai/
+          - listitem [ref=e732]:
+            - link "Manage Privacy Settings" [ref=e733] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e734]:
+          - link "Immediate company logo in white" [ref=e736] [cursor=pointer]:
+            - /url: https://www.immediate.co.uk
+            - img "Immediate company logo in white" [ref=e740]
+          - generic [ref=e741]:
+            - generic [ref=e742]: This website is owned and published by Immediate Media Company Limited. The domain name is used under licence from BBC Studios Distribution Limited.
+            - generic [ref=e743]: © Immediate 2026
+      - list [ref=e746]:
+        - listitem [ref=e747]:
+          - link "Nutracheck.co.uk" [ref=e748] [cursor=pointer]:
+            - /url: https://www.nutracheck.co.uk/Home?utm_source=goodfood&utm_medium=footer&utm_campaign=gf-footer
+        - listitem [ref=e749]:
+          - link "OliveMagazine.com" [ref=e750] [cursor=pointer]:
+            - /url: https://www.olivemagazine.com
+        - listitem [ref=e751]:
+          - link "GoodFoodShow.com" [ref=e752] [cursor=pointer]:
+            - /url: https://www.goodfoodshow.com/summer/?utm_source=bbcgoodfood.com&utm_medium=referral&utm_campaign=footer
+        - listitem [ref=e753]:
+          - link "RadioTimes.com" [ref=e754] [cursor=pointer]:
+            - /url: https://www.radiotimes.com
+        - listitem [ref=e755]:
+          - link "HistoryExtra.com" [ref=e756] [cursor=pointer]:
+            - /url: https://www.historyextra.com
+        - listitem [ref=e757]:
+          - link "GardenersWorld.com" [ref=e758] [cursor=pointer]:
+            - /url: https://www.gardenersworld.com
+        - listitem [ref=e759]:
+          - link "MadeForMums.com" [ref=e760] [cursor=pointer]:
+            - /url: https://www.madeformums.com
+      - list [ref=e763]:
+        - listitem [ref=e764]:
+          - link "Barbecue" [ref=e765] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/barbecue-collections
+        - listitem [ref=e766]:
+          - link "Dietary needs" [ref=e767] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dietary-needs-collections
+        - listitem [ref=e768]:
+          - link "Healthy eating" [ref=e769] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/healthy-eating-collections
+        - listitem [ref=e770]:
+          - link "Seasonal" [ref=e771] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/seasonal-food-collections
+        - listitem [ref=e772]:
+          - link "Bread, pastry & cakes" [ref=e773] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/bread-pastry-cake-collections
+        - listitem [ref=e774]:
+          - link "Dinner ideas" [ref=e775] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dinner-idea-collections
+        - listitem [ref=e776]:
+          - link "Nuts & seeds" [ref=e777] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/nuts-and-seeds-collections
+        - listitem [ref=e778]:
+          - link "Soups" [ref=e779] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/soup-collections
+        - listitem [ref=e780]:
+          - link "Breakfast" [ref=e781] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/breakfast-collections
+        - listitem [ref=e782]:
+          - link "Dinner party" [ref=e783] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dinner-party-collections
+        - listitem [ref=e784]:
+          - link "Poultry" [ref=e785] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/poultry-collections
+        - listitem [ref=e786]:
+          - link "Special occasions" [ref=e787] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/special-occasion-collections
+        - listitem [ref=e788]:
+          - link "Casserole & slow cooker" [ref=e789] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/casserole-slow-cooker-collections
+        - listitem [ref=e790]:
+          - link "Drinks" [ref=e791] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/drinks-collections
+        - listitem [ref=e792]:
+          - link "Pulses & grains" [ref=e793] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/pulses-and-grains-collections
+        - listitem [ref=e794]:
+          - link "Sweet treats" [ref=e795] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/sweet-treat-collections
+        - listitem [ref=e796]:
+          - link "Cheese" [ref=e797] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/cheese-collections
+        - listitem [ref=e798]:
+          - link "Easter" [ref=e799] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/all-easter-collections
+        - listitem [ref=e800]:
+          - link "Quick & easy budget meals" [ref=e801] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/easy-and-budget-collections
+        - listitem [ref=e802]:
+          - link "Vegan" [ref=e803] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/vegan-collections
+        - listitem [ref=e804]:
+          - link "Christmas" [ref=e805] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/christmas-collections
+        - listitem [ref=e806]:
+          - link "Family friendly" [ref=e807] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/family-friendly-collections
+        - listitem [ref=e808]:
+          - link "Red meat & game" [ref=e809] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/red-meat-and-game-collections
+        - listitem [ref=e810]:
+          - link "Vegetables" [ref=e811] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/vegetable-collections
+        - listitem [ref=e812]:
+          - link "Cuisine" [ref=e813] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/cuisine-collections
+        - listitem [ref=e814]:
+          - link "Fish & seafood" [ref=e815] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/fish-seafood-collections
+        - listitem [ref=e816]:
+          - link "Religious events" [ref=e817] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/religious-events-collections
+        - listitem [ref=e818]:
+          - link "Vegetarian" [ref=e819] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/vegetarian-collections
+        - listitem [ref=e820]:
+          - link "Desserts" [ref=e821] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/dessert-collections
+        - listitem [ref=e822]:
+          - link "Fruit" [ref=e823] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/category/fruit-collections
+        - listitem [ref=e824]:
+          - link "Salads" [ref=e825] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/recipes/collection/salad-collections
+        - listitem [ref=e826]:
+          - link "US recipes" [ref=e827] [cursor=pointer]:
+            - /url: https://www.bbcgoodfood.com/us
+  - alert [ref=e828]
+  - dialog "SP Consent Message" [ref=e1832]:
+    - iframe [active] [ref=e1833]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e6]:
+          - paragraph [ref=f3e7]: We value your privacy
+          - paragraph [ref=f3e8]:
+            - text: We need your consent so that we and our 126 trusted
+            - link "partners" [ref=f3e9] [cursor=pointer]:
+              - /url: "#"
+            - generic "message-link" [ref=f3e10]:
+              - text: can store and access cookies, unique identifiers, personal data, and information on your browsing behaviour on this device. This only applies to Immediate Media. You can change your preferences at any time by clicking on ‘Manage Privacy Settings’ located at the bottom of any page. You don’t have to agree, but some personalised content and advertising may not work if you don’t. We and our
+              - link "partners" [ref=f3e11] [cursor=pointer]:
+                - /url: "#"
+              - text: "use your data for the following purposes:"
+            - paragraph
+            - paragraph [ref=f3e12]
+            - paragraph [ref=f3e13]:
+              - emphasis [ref=f3e14]: Store and/or access information on a device
+            - paragraph [ref=f3e15]:
+              - emphasis [ref=f3e16]: Precise geolocation data, and identification through device scanning
+            - paragraph [ref=f3e17]:
+              - emphasis [ref=f3e18]: Personalised advertising and content, advertising and content measurement, audience research and services development.
+            - paragraph [ref=f3e19]:
+              - emphasis [ref=f3e20]: Google Consent Mode framework
+            - paragraph [ref=f3e21]
+            - paragraph [ref=f3e22]:
+              - text: To view our list of
+              - link "partners" [ref=f3e23] [cursor=pointer]:
+                - /url: "#"
+              - text: and see how your data may be used, click or tap ‘More Options’ below. You can also review where our partners claim a legitimate interest to use your data and, if you wish, object to them using it.
+        - generic [ref=f3e24]:
+          - button "MORE OPTIONS" [ref=f3e25] [cursor=pointer]
+          - button "AGREE" [ref=f3e26] [cursor=pointer]
