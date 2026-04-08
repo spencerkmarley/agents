@@ -8,7 +8,7 @@ Setting up a powerful environment to work at the forefront of AI is not as easy 
 
 If you hit problems, please don't hesitate to reach out. I am here to get you up and running quickly. There's nothing worse than feeling _stuck_. Message me, email me or LinkedIn message me and I will unstick you quickly!
 
-Email: ed@edwarddonner.com  
+Email: info@thelogiclayer.com  
 LinkedIn: https://www.linkedin.com/in/eddonner/  
 
 _If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view the formatted version._
@@ -190,4 +190,4 @@ And then try again.
 
 If you have any problems, I've included a Guide called [troubleshooting.ipynb](troubleshooting.ipynb) to figure it out.
 
-Please do message me or email me at ed@edwarddonner.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.
+Please do message me or email me at info@thelogiclayer.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.

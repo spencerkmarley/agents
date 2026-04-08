@@ -7,8 +7,8 @@ from agents import Agent, function_tool
 @function_tool
 def send_email(subject: str, html_body: str) -> Dict[str, str]:
     sg = sendgrid.SendGridAPIClient(api_key=os.environ.get("SENDGRID_API_KEY"))
-    from_email = Email("ed@edwarddonner.com")
-    to_email = To("ed.donner@gmail.com")
+    from_email = Email("info@thelogiclayer.com")
+    to_email = To("spencermarley@gmail.com")
     content = Content("text/html", html_body)
     mail = Mail(from_email, to_email, subject, content).get()
     response = sg.client.mail.send.post(request_body=mail)
