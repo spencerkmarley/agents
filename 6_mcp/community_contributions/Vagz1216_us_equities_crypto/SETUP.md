@@ -16,7 +16,7 @@ Copy `.env.example` to `.env` at repo root if needed, then set at least:
 | `GROQ_API_KEY` | Recommended LLM provider for traders |
 | `OPENROUTER_API_KEY` | Optional fallback |
 | `CEREBRAS_API_KEY` | Optional fallback |
-| `POLYGON_API_KEY` | US equity prices (optional; fallback exists) |
+| `MASSIVE_API_KEY` | US equity prices (optional; fallback exists) |
 | `RUN_EVERY_N_MINUTES` | Scheduler interval (e.g. `1` for demos) |
 | `RUN_EVEN_WHEN_MARKET_IS_CLOSED` | `true` to run outside US hours |
 

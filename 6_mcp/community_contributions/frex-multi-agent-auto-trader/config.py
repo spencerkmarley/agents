@@ -8,19 +8,19 @@ load_dotenv(override=True)
 
 # Directory & Plan config
 HERE = os.path.dirname(os.path.abspath(__file__))
-POLYGON_API_KEY = os.getenv("POLYGON_API_KEY")
-POLYGON_PLAN = os.getenv("POLYGON_PLAN", "free")
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
+MASSIVE_PLAN = os.getenv("MASSIVE_PLAN", "free")
 BRAVE_API_KEY = os.getenv("BRAVE_API_KEY")
 
-IS_PAID_POLYGON = POLYGON_PLAN == "paid"
-IS_REALTIME_POLYGON = POLYGON_PLAN == "realtime"
+IS_PAID_POLYGON = MASSIVE_PLAN == "paid"
+IS_REALTIME_POLYGON = MASSIVE_PLAN == "realtime"
 
 # MCP server parameters
 if IS_PAID_POLYGON or IS_REALTIME_POLYGON:
     market_mcp_params = {
         "command": "uvx",
         "args": ["--from", "git+https://github.com/polygon-io/mcp_polygon@v0.1.0", "mcp_polygon"],
-        "env": {"POLYGON_API_KEY": POLYGON_API_KEY},
+        "env": {"MASSIVE_API_KEY": MASSIVE_API_KEY},
     }
 else:
     market_mcp_params = {

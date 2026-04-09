@@ -234,7 +234,7 @@ def generate_pdf_from_text(
 
 class PolygonClient:
     def __init__(self):
-        self.client = RESTClient(api_key=os.getenv("POLYGON_API_KEY"))
+        self.client = RESTClient(api_key=os.getenv("MASSIVE_API_KEY"))
 
     def is_market_open(self) -> bool:
         market_status = self.client.get_market_status()
@@ -272,7 +272,7 @@ class PolygonClient:
         return self.get_share_price_polygon_eod(symbol)
 
     def get_share_price(self, symbol: str) -> float:
-        if os.getenv("POLYGON_API_KEY"):
+        if os.getenv("MASSIVE_API_KEY"):
             try:
                 return self.get_share_price_polygon(symbol)
             except Exception as e:

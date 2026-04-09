@@ -14,8 +14,8 @@ import json
 
 load_dotenv(override=True)
 
-polygon_api_key = os.getenv("POLYGON_API_KEY")
-client = RESTClient(polygon_api_key)
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
+client = RESTClient(MASSIVE_API_KEY)
 
 mcp = FastMCP("ta_server")
 

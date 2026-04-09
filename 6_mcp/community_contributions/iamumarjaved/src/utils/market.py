@@ -9,19 +9,19 @@ from datetime import timezone
 
 load_dotenv(override=True)
 
-polygon_api_key = os.getenv("POLYGON_API_KEY")
-polygon_plan = os.getenv("POLYGON_PLAN")
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
+polygon_plan = os.getenv("MASSIVE_PLAN")
 
 is_paid_polygon = polygon_plan == "paid"
 is_realtime_polygon = polygon_plan == "realtime"
 
 def is_market_open() -> bool:
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
     market_status = client.get_market_status()
     return market_status.market == "open"
 
 def get_all_share_prices_polygon_eod() -> dict[str, float]:
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
 
     probe = client.get_previous_close_agg("SPY")[0]
     last_close = datetime.fromtimestamp(probe.timestamp / 1000, tz=timezone.utc).date()
@@ -43,7 +43,7 @@ def get_share_price_polygon_eod(symbol) -> float:
     return market_data.get(symbol, 0.0)
 
 def get_share_price_polygon_min(symbol) -> float:
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
     result = client.get_snapshot_ticker("stocks", symbol)
     return result.min.close or result.prev_day.close
 
@@ -54,7 +54,7 @@ def get_share_price_polygon(symbol) -> float:
         return get_share_price_polygon_eod(symbol)
 
 def get_share_price(symbol) -> float:
-    if polygon_api_key:
+    if MASSIVE_API_KEY:
         try:
             return get_share_price_polygon(symbol)
         except Exception as e:

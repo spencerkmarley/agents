@@ -12,8 +12,8 @@ Environment variables (.env):
   OPENROUTER_API_KEY            — required (all models routed via OpenRouter)
   OPENAI_API_KEY                — fallback for plain model names
   BRAVE_API_KEY                 — for researcher web search
-  POLYGON_API_KEY               — for market data (optional, random prices used if absent)
-  POLYGON_PLAN                  — free | paid | realtime
+  MASSIVE_API_KEY               — for market data (optional, random prices used if absent)
+  MASSIVE_PLAN                  — free | paid | realtime
   PUSHOVER_USER                 — Pushover user key
   PUSHOVER_TOKEN                — Pushover app token
   SENDGRID_API_KEY              — for risk manager email reports
@@ -101,7 +101,7 @@ def get_model(model_name: str):
 
 
 # MCP SERVER PARAMSSetup the MCP server parameters
-polygon_api_key = os.getenv("POLYGON_API_KEY")
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
 brave_env = {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")}
 
 # Market MCP: use Polygon paid server if available, else local market.py
@@ -110,7 +110,7 @@ if is_paid_polygon or is_realtime_polygon:
     _market_mcp = {
         "command": "uvx",
         "args": ["--from", "git+https://github.com/polygon-io/mcp_polygon@v0.1.0", "mcp_polygon"],
-        "env": {"POLYGON_API_KEY": polygon_api_key},
+        "env": {"MASSIVE_API_KEY": MASSIVE_API_KEY},
     }
 else:
     # market.py now serves both market data AND push notifications as one MCP server

@@ -5,7 +5,7 @@ from market import is_paid_polygon, is_realtime_polygon
 load_dotenv(override=True)
 
 brave_env = {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")}
-polygon_api_key = os.getenv("POLYGON_API_KEY")
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
 
 # The MCP server for the Trader to read Market Data
 
@@ -13,7 +13,7 @@ if is_paid_polygon or is_realtime_polygon:
     market_mcp = {
         "command": "uvx",
         "args": ["--from", "git+https://github.com/massive-com/mcp_massive@v0.6.0", "mcp_massive"],
-        "env": {"POLYGON_API_KEY": polygon_api_key},
+        "env": {"MASSIVE_API_KEY": MASSIVE_API_KEY},
     }
 else:
     market_mcp = {"command": "uv", "args": ["run", "market_server.py"]}

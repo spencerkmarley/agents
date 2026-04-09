@@ -19,8 +19,8 @@ from database import read_market, write_market
 
 load_dotenv(override=True)
 
-polygon_api_key = os.getenv("POLYGON_API_KEY")
-polygon_plan = os.getenv("POLYGON_PLAN")
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
+polygon_plan = os.getenv("MASSIVE_PLAN")
 
 is_paid_polygon = polygon_plan == "paid"
 is_realtime_polygon = polygon_plan == "realtime"
@@ -53,15 +53,15 @@ def is_crypto_symbol(symbol: str) -> bool:
 
 def is_market_open() -> bool:
     # Keep class behavior: only equities schedule is market-hours gated.
-    if not polygon_api_key:
+    if not MASSIVE_API_KEY:
         return True
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
     market_status = client.get_market_status()
     return market_status.market == "open"
 
 
 def get_all_share_prices_polygon_eod() -> dict[str, float]:
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
     probe = client.get_previous_close_agg("SPY")[0]
     last_close = datetime.fromtimestamp(probe.timestamp / 1000, tz=timezone.utc).date()
     results = client.get_grouped_daily_aggs(last_close, adjusted=True, include_otc=False)
@@ -84,7 +84,7 @@ def get_share_price_polygon_eod(symbol: str) -> float:
 
 
 def get_share_price_polygon_min(symbol: str) -> float:
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
     result = client.get_snapshot_ticker("stocks", symbol)
     return result.min.close or result.prev_day.close
 
@@ -115,7 +115,7 @@ def get_share_price(symbol: str) -> float:
             print(f"Crypto API unavailable ({e}); using random fallback")
             return float(random.randint(10, 200))
 
-    if polygon_api_key:
+    if MASSIVE_API_KEY:
         try:
             return get_share_price_polygon(normalized)
         except Exception as e:

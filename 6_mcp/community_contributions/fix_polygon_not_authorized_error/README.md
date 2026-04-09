@@ -38,7 +38,7 @@ The former is December 30, 2025 9:00:00 PM (GMT),  4:00:00 PM (EST)  and the lat
 ```
 def get_all_share_prices_polygon_eod(today_ny) -> dict[str, float]:
     """With much thanks to student Reema R. for fixing the timezone issue with this!"""
-    client = RESTClient(polygon_api_key)
+    client = RESTClient(MASSIVE_API_KEY)
     probe = client.get_previous_close_agg("SPY")[0]
     # timestamp is the trading-closing timestamp. That's NYC 4:00pm and UTC 9:00pm. An example is 1767214800000
     last_close = datetime.fromtimestamp(probe.timestamp / 1000, tz=ZoneInfo("America/New_York")).date()

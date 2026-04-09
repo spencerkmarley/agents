@@ -20,10 +20,10 @@ load_dotenv(override=True)
 DB = "accounts.db"
 INITIAL_BALANCE = 10_000.0
 SPREAD = 0.002
-POLYGON_API_KEY = os.getenv("POLYGON_API_KEY")
-POLYGON_PLAN = os.getenv("POLYGON_PLAN", "free")
-IS_PAID_POLYGON = POLYGON_PLAN == "paid"
-IS_REALTIME_POLYGON = POLYGON_PLAN == "realtime"
+MASSIVE_API_KEY = os.getenv("MASSIVE_API_KEY")
+MASSIVE_PLAN = os.getenv("MASSIVE_PLAN", "free")
+IS_PAID_POLYGON = MASSIVE_PLAN == "paid"
+IS_REALTIME_POLYGON = MASSIVE_PLAN == "realtime"
 ALPHANUM = string.ascii_lowercase + string.digits
 
 # Database
@@ -138,14 +138,14 @@ def reset_risk(name: str):
 
 # Market data
 def is_market_open() -> bool:
-    client = RESTClient(POLYGON_API_KEY)
+    client = RESTClient(MASSIVE_API_KEY)
     return client.get_market_status().market == "open"
 
 @lru_cache(maxsize=2)
 def get_market_for_prior_date(today_str: str):
     market_data = read_market(today_str)
     if not market_data:
-        client = RESTClient(POLYGON_API_KEY)
+        client = RESTClient(MASSIVE_API_KEY)
         probe = client.get_previous_close_agg("SPY")[0]
         last_close = datetime.fromtimestamp(probe.timestamp / 1000, tz=timezone.utc).date()
         results = client.get_grouped_daily_aggs(last_close, adjusted=True, include_otc=False)
@@ -155,7 +155,7 @@ def get_market_for_prior_date(today_str: str):
 
 def get_share_price(symbol: str) -> float:
     if IS_PAID_POLYGON:
-        client = RESTClient(POLYGON_API_KEY)
+        client = RESTClient(MASSIVE_API_KEY)
         result = client.get_snapshot_ticker("stocks", symbol)
         return result.min.close or result.prev_day.close
     else:
